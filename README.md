@@ -83,13 +83,7 @@ See `LICENSE` for details.
 
 ---
 
-## 🧭 Contributor
 
-**Sujay Korde**  
-_AI & Machine Learning Engineer |_  
-
-📧 Connect on LinkedIn: https://linkedin.com/in/sujay-korde  
-🌐 GitHub: https://github.com/Sujay-korde  
 
 ---
 
