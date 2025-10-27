@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Large data directories (do NOT upload)
+pdb_files/
+dssp_outputs/
+final_dataset/
+data/raw/
+data/large/
+
+# Logs and local status
+*.log
+dssp_status.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
