@@ -5,3 +5,8 @@ pandas
 numpy
 matplotlib
 nglview
+py3Dmol
+scikit-learn
+notebook
+jupyterlab
+seaborn
