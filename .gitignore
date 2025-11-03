@@ -24,3 +24,11 @@ Thumbs.db
 
 # VSCode
 .vscode/
+raw/
+data/raw/
+data/processed/
+models/
+.venv/
+__pycache__/
+logs/
+results/local_anomalies
