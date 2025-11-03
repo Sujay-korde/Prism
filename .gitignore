@@ -32,3 +32,8 @@ models/
 __pycache__/
 logs/
 results/local_anomalies
+1A0L_local_anomalies.csv
+1A1A_local_anomalies.csv
+1A1B_local_anomalies.csv
+1A1C_local_anomalies.csv
+1A1E_local_anomalies.csv
