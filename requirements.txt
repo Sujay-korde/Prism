@@ -10,3 +10,6 @@ scikit-learn
 notebook
 jupyterlab
 seaborn
+joblib
+xgboost 
+lightgbm 

@@ -1,39 +1,55 @@
-# Python
+# ===== Python =====
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Virtual environment
+# ===== Virtual Environment =====
 .venv/
 env/
 venv/
 
-# Large data directories (do NOT upload)
-pdb_files/
-dssp_outputs/
-final_dataset/
-data/raw/
-data/large/
-
-# Logs and local status
-*.log
-dssp_status.json
-
-# System files
+# ===== IDE / System =====
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
 
-# VSCode
-.vscode/
-raw/
-data/raw/
-data/processed/
-models/
-.venv/
-__pycache__/
+# ===== Logs =====
 logs/
-results/local_anomalies
-1A0L_local_anomalies.csv
-1A1A_local_anomalies.csv
-1A1B_local_anomalies.csv
-1A1C_local_anomalies.csv
-1A1E_local_anomalies.csv
+*.log
+
+# ===== Data (keep only minimal) =====
+data/raw/
+data/disease_labels/*.json
+data/disease_labels/fetched_records.csv
+data/disease_labels/uniprot_cache.json
+data/processed/protein_anomalies_with_diseases.csv
+data/processed/protein_anomalies_detected.csv
+data/processed/processed_partial.csv
+data/processed/processed_protein_dataset_with_dssp.csv
+data/processed/protein_anomalies.csv
+
+# Keep only summary and risk results
+!data/processed/protein_level_summary.csv
+!data/risk_results/predicted_disease_risk.csv
+
+# ===== Models =====
+models/XGBoost_disease_predictor.pkl
+models/LightGBM_disease_predictor.pkl
+# Keep only the best model
+!models/RandomForest_disease_predictor.pkl
+
+# ===== Local Results / Temp Files =====
+results/local_anomalies/
+*.tmp
+*_local_anomalies.csv
+
+# ===== Large Structures =====
+pdb_files/
+dssp_outputs/
+final_dataset/
+
+# ===== Deployment cache =====
+.streamlit/
+__pycache__/
